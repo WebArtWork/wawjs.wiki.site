@@ -4,8 +4,8 @@ $(document).ready(function () {
     nav: true,
     dots: false,
     navText: [
-      '<img src="/wiki/img/arrow-prev.svg" alt="previous" class="support__prev-item"></img>',
-      '<img src="/wiki/img/arrow-next.svg" alt="next" class="support__next-item">',
+      '<img src="/img/arrow-prev.svg" alt="previous" class="support__prev-item"></img>',
+      '<img src="/img/arrow-next.svg" alt="next" class="support__next-item">',
     ],
   });
 });
