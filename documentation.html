@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<base href="/" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>waw Documentation | Web Art Work</title>
+		<meta itemprop="name" content="waw Documentation | Web Art Work" />
+		<meta name="twitter:title" content="waw Documentation | Web Art Work" />
+		<meta property="og:title" content="waw Documentation | Web Art Work" />
+
+		<meta name="description" content="Official waw framework documentation by Web Art Work. Learn how to build modular full-stack apps using Angular, React, Vue, Capacitor or Unity and Node.js with MongoDB or other database. Clear guides, examples, and best practices to help you create web, mobile, and game projects with waw." />
+		<meta itemprop="description" content="Official waw framework documentation by Web Art Work. Learn how to build modular full-stack apps using Angular, React, Vue, Capacitor or Unity and Node.js with MongoDB or other database. Clear guides, examples, and best practices to help you create web, mobile, and game projects with waw." />
+		<meta name="twitter:description" content="Official waw framework documentation by Web Art Work. Learn how to build modular full-stack apps using Angular, React, Vue, Capacitor or Unity and Node.js with MongoDB or other database. Clear guides, examples, and best practices to help you create web, mobile, and game projects with waw." />
+		<meta property="og:description" content="Official waw framework documentation by Web Art Work. Learn how to build modular full-stack apps using Angular, React, Vue, Capacitor or Unity and Node.js with MongoDB or other database. Clear guides, examples, and best practices to help you create web, mobile, and game projects with waw." />
+
+		<meta itemprop="image" content="https://wawjs.wikiimg/logo.png" />
+		<meta name="twitter:image:src" content="https://wawjs.wikiimg/logo.png" />
+		<meta property="og:image" content="https://wawjs.wikiimg/logo.png" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/jquery.fancybox.css" />
+		<link rel="stylesheet" href="css/owl.carousel.min.css" />
+		<link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+		<link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body>
+		<div class="l-navs-wrapper">
+			<div class="l-container">
+				<div class="l-navs">
+					<a href="/" class="l-navs-logo" title="Home"
+						><img src="img/logo.svg" alt="logo"
+					/></a>
+					<nav class="l-navs-menu" id="landNavs">
+						<a href="/registry" class="l-navs-link jsNavElement"
+							>REGESTRY</a
+						>
+						<a
+							href="/documentation"
+							class="l-navs-link jsNavElement"
+							>DOCUMENTATION</a
+						>
+						<div class="l-navs-soc">
+							<a
+								href="https://github.com/WebArtWork/waw"
+								class="l-navs-icon jsNavElement"
+								title="GitHub"
+								><i class="icon-git"></i
+							></a>
+							<a
+								href="#"
+								class="l-navs-icon jsNavElement"
+								title="Twitter"
+								><i class="icon-twitter"></i
+							></a>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<div class="menu-icon" id="toogleNavs">
+				<span></span><span></span><span></span>
+			</div>
+		</div>
+		<div class="landing-wrapper">
+			<header class="l-head-wrapper">
+	<div class="l-container">
+		<div class="l-head">
+			<div class="l-head_left">
+				<div class="l-head-title">I am here to connect with you</div>
+				<div class="l-head-text">
+					I am very logical creature, below you will see everything
+					you need to know to work with me
+				</div>
+				<div class="l-head-btns">
+					<a href="/documentation#start" class="l-btn _docs"
+						>Let's start</a
+					>
+				</div>
+			</div>
+			<div class="l-head_right">
+				<img src="img/logo.svg" alt="logo" />
+			</div>
+		</div>
+	</div>
+</header>
+<section class="description" id="start">
+	<div class="container">
+		<div class="description__inner">
+			<section id="introduction">
+				<h2>Introduction</h2>
+				<p>
+					<strong>waw</strong> is a minimal and modular JavaScript
+					framework created by Web Art Work. Its core is intentionally
+					lightweight—designed to be extended entirely through
+					external modules. Whether you're building a full-stack web
+					app, mobile app with Capacitor, or Unity-based game, waw
+					adapts to your stack.
+				</p>
+			</section>
+
+			<section id="key-concepts">
+				<h2>Key Concepts</h2>
+
+				<h3>Minimal Core</h3>
+				<p>
+					waw itself contains almost no logic. All functionality is
+					added through custom modules, allowing full control over
+					project architecture.
+				</p>
+
+				<h3>Modular Architecture</h3>
+				<p>Supports:</p>
+				<ul>
+					<li>Angular</li>
+					<li>React</li>
+					<li>Vue</li>
+					<li>Unity</li>
+					<li>Capacitor</li>
+					<li>Node.js</li>
+					<li>MongoDB</li>
+				</ul>
+				<p>Choose only the tools and technologies you need.</p>
+			</section>
+
+			<section id="getting-started">
+				<h2>Getting Started</h2>
+
+				<h3>Install waw CLI</h3>
+				<pre><code>npm install -g waw</code></pre>
+
+				<h3>Create New Project</h3>
+				<pre><code>waw new my-project</code></pre>
+
+				<h3>Run Your Project</h3>
+				<pre><code>waw</code></pre>
+
+				<h3>Production Start</h3>
+				<pre><code>waw start</code></pre>
+
+				<h3>Sync Modules</h3>
+				<pre><code>waw sync</code></pre>
+
+				<h3>Update waw</h3>
+				<pre><code>waw update</code></pre>
+			</section>
+
+			<section id="module-system">
+				<h2>Module System</h2>
+				<p>
+					<strong>Global Modules</strong>: Shared across projects,
+					pulled from GitHub.
+				</p>
+				<p>
+					<strong>Local Modules</strong>: Scoped to a project,
+					modifiable.
+				</p>
+				<p>Convert global to local when customization is needed.</p>
+			</section>
+
+			<section id="default-tools">
+				<h2>Default Tools</h2>
+
+				<h3>Back-End</h3>
+				<ul>
+					<li>Express.js</li>
+					<li>Socket.io</li>
+					<li>MongoDB</li>
+				</ul>
+
+				<h3>Front-End</h3>
+				<ul>
+					<li>Angular</li>
+					<li>React</li>
+					<li>Vue</li>
+				</ul>
+
+				<h3>Game</h3>
+				<p>
+					Unity integration with
+					<a
+						href="https://github.com/WebArtWork/waw-unity"
+						target="_blank"
+						>waw-unity</a
+					>
+				</p>
+			</section>
+
+			<section id="cli-tooling">
+				<h2>CLI Tooling</h2>
+				<ul>
+					<li><strong>waw-core</strong> – project scaffolding</li>
+					<li>
+						<strong>waw-sem</strong> – Express + Socket.io + MongoDB
+						backend generator
+					</li>
+					<li>
+						<strong>waw-angular</strong>,
+						<strong>waw-react</strong>, <strong>waw-vue</strong>,
+						<strong>waw-unity</strong> – frontend/game project
+						support
+					</li>
+				</ul>
+			</section>
+
+			<section id="why-waw">
+				<h2>Why waw?</h2>
+				<ul>
+					<li>Only the modules you need</li>
+					<li>Scalable and maintainable</li>
+					<li>Unified workflow for web, mobile, and game</li>
+				</ul>
+			</section>
+
+			<!-- <section id="next">
+				<hr />
+				<p>
+					Next:
+					<a href="structure">Project Structure →</a>
+				</p>
+			</section> -->
+		</div>
+	</div>
+</section>
+
+			<footer class="l-footer-wrapper">
+				<div class="l-container">
+					<div class="l-footer">
+						<div class="l-footer-social">
+							<a href="#" title="GitHub">
+								<i class="icon-git"></i>
+							</a>
+							<a href="#" title="Twitter">
+								<i class="icon-twitter"></i>
+							</a>
+						</div>
+						<div>
+							<div>Released under the MIT License</div>
+							<div>
+								Copyright ©
+								<a
+									href="https://github.com/WebArtWork/waw/commit/4fd873182ef907af94b40ab3899694b80394e29a"
+									style="
+										cursor: pointer;
+										color: #2a2a2a;
+										font-weight: bolder;
+									"
+									>4 July</a
+								>
+								2016 - 2025 Web Art Work
+							</div>
+							<div>
+								Architected by
+								<a href="https://github.com/crackerakiUA"
+									>Honchar Denys</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/jquery.fancybox.min.js"></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>
