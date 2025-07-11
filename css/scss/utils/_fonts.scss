@@ -10,36 +10,36 @@ $ff-trash: "Montserrat", sans-serif;
 
 // social icons
 @font-face {
-  font-family: "icomoon";
-  src: url("/fonts/soc.eot?mavpjl");
-  src: url("/fonts/soc.eot?mavpjl#iefix") format("embedded-opentype"),
-    url("/fonts/soc.ttf?mavpjl") format("truetype"),
-    url("/fonts/soc.woff?mavpjl") format("woff"),
-    url("/fonts/soc.svg?mavpjl#soc") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
+	font-family: "icomoon";
+	src: url("../fonts/soc.eot?mavpjl");
+	src: url("../fonts/soc.eot?mavpjl#iefix") format("embedded-opentype"),
+		url("../fonts/soc.ttf?mavpjl") format("truetype"),
+		url("../fonts/soc.woff?mavpjl") format("woff"),
+		url("../fonts/soc.svg?mavpjl#soc") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
 }
 
 [class^="icon-"],
 [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "icomoon" !important;
-  speak: never;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: "icomoon" !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
 
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .icon-twitter:before {
-  content: "\ea96";
+	content: "\ea96";
 }
 .icon-git:before {
-  content: "\eab0";
+	content: "\eab0";
 }
